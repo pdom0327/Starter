@@ -1,7 +1,6 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A starter theme for Ghost theme development",
-    "demo": "https://starter.ghost.io",
+    "name": "pdost",
+    "description": "pdom.me's Ghost theme.",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=5.0.0"
@@ -18,9 +17,9 @@
         "pretest": "npm run build"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Pdom",
+        "email": "pdom0327@gmail.com",
+        "url": "https://pdom.me"
     },
     "gpm": {
         "type": "theme",
@@ -36,10 +35,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/pdom0327/pdost.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/pdom0327/pdost/issues",
+    "contributors": "https://github.com/pdom0327/pdost/graphs/contributors",
     "devDependencies": {
         "@babel/core": "^7.21.0",
         "@babel/preset-env": "^7.20.2",
@@ -47,13 +46,15 @@
         "@rollup/plugin-commonjs": "^25.0.0",
         "@rollup/plugin-node-resolve": "^15.0.1",
         "@rollup/plugin-terser": "^0.4.0",
+        "autoprefixer": "^10.4.19",
         "bestzip": "^2.2.1",
-        "postcss": "^8.4.24",
+        "postcss": "^8.4.39",
         "postcss-import": "^15.1.0",
         "postcss-preset-env": "^8.0.1",
-        "rollup": "^3.18.0",
+        "rollup": "^4.18.1",
         "rollup-plugin-livereload": "^2.0.5",
-        "rollup-plugin-postcss": "^4.0.2"
+        "rollup-plugin-postcss": "^4.0.2",
+        "tailwindcss": "^3.4.6"
     },
     "browserslist": [
         "defaults"
